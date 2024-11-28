@@ -1,0 +1,11 @@
+Model,Anomaly_Count,Parameter 1,Parameter 2,Parameter 3,Parameter 4,Parameter 5,Parameter 6,Parameter 7,Parameter 8,Parameter 9,Parameter 10,Parameter 11
+abod,0,contamination=0.05,method=fast,n_neighbors=5,,,,,,,,
+cluster,50,alpha=0.9,beta=5,check_estimator=False,clustering_estimator=None,contamination=0.05,n_clusters=8,n_jobs=None,random_state=123,use_weights=False,,
+cof,50,contamination=0.05,method=fast,n_neighbors=20,,,,,,,,
+iforest,50,behaviour=new,bootstrap=False,contamination=0.05,max_features=1.0,max_samples=auto,n_estimators=100,n_jobs=-1,random_state=123,verbose=0,,
+histogram,50,alpha=0.1,contamination=0.05,n_bins=10,tol=0.5,,,,,,,
+knn,46,algorithm=auto,contamination=0.05,leaf_size=30,method=largest,metric=minkowski,metric_params=None,n_jobs=-1,n_neighbors=5,p=2,radius=1.0,
+lof,46,algorithm=auto,contamination=0.05,leaf_size=30,metric=minkowski,metric_params=None,n_jobs=-1,n_neighbors=20,novelty=True,p=2,,
+svm,50,cache_size=200,coef0=0.0,contamination=0.05,degree=3,gamma=auto,kernel=rbf,max_iter=-1,nu=0.5,shrinking=True,tol=0.001,verbose=False
+pca,50,contamination=0.05,copy=True,iterated_power=auto,n_components=None,n_selected_components=None,random_state=123,standardization=True,svd_solver=auto,tol=0.0,weighted=True,whiten=False
+mcd,50,assume_centered=False,contamination=0.05,random_state=123,store_precision=True,support_fraction=None,,,,,,
